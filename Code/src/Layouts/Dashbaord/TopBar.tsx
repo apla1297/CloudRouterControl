@@ -36,7 +36,7 @@ const TopBar = (props: any): JSX.Element => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" noWrap>
-          IFTTTesla
+          Matrix Controller
         </Typography>
       </Toolbar>
     </AppBar>
