@@ -4,13 +4,16 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 //Pages
 import Dashboard from './Pages/Dashbaord'
+import Config from './Pages/Config'
 import NotFound from './Pages/Error Pages/NotFound'
 
 const Router = () => (
   <BrowserRouter basename="/">
     <Routes>
-      {/* Home */}
-      <Route path="/" element={<Dashboard />} />
+      {/* Controller */}
+      {/* <Route path="/" element={<Dashboard />} /> */}
+      {/* Config */}
+      <Route path="/config" element={<Config />} />
       {/* Not found */}
       <Route path="/*" element={<NotFound />} />
     </Routes>
